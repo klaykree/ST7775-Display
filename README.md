@@ -1,6 +1,4 @@
 # ST7775-Display
-Library for the ST7775 display
-
 Fast drawing functions for a ST7775 display.  
 
 Uses digital pins 0-7 for DB (data bus) pins 0-7: digital pin 0 = DB pin 0, digital pin 1 = DB pin 1 etc.  
