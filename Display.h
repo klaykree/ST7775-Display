@@ -358,7 +358,7 @@ void InitDisplay()
   PORTC = (PORTC & 0b11110000) | 0b00001111;
   
   //Reset screen
-  SET(DDRB, 1); //Pin 11 to output
+  SET(DDRB, 1); //Pin 9 to output
   SET(PORTB, 1);
   CLR(PORTB, 1); //Clock low to reset
   delay(10);
@@ -366,7 +366,7 @@ void InitDisplay()
   delay(10);
   
   //Backlight
-  SET(DDRB, 0); //Pin 4 to output
+  SET(DDRB, 0); //Pin 8 to output
   //SET(PORTB, 2); //Backlight off
   CLR(PORTB, 0); //Backlight on
 
