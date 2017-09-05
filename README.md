@@ -6,5 +6,5 @@ CS (chip select) = analog pin 0
 RS (read/write select) = analog pin 1  
 WR (write) = analog pin 2  
 RD (read) = analog pin 3  
-RST (reset) = digital pin 9
+RST (reset) = digital pin 9  
 LED (backlight) = digital pin 8
