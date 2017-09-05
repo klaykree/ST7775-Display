@@ -88,9 +88,6 @@ void DrawHLine(uint8_t X, uint8_t Y, uint8_t Width, uint8_t HiColor, uint8_t LoC
   }
 }
 
-__attribute__ ((section (".Fixed")))
-void DrawShape8x8(const uint8_t X, uint8_t Y, const uint8_t Scale, const uint8_t* Shape, const uint8_t Palette, const bool FlipVertical, const bool FlipHorizontal) __attribute__((section(".Fixed")));
-
 void DrawShape8x8(const uint8_t X, uint8_t Y, const uint8_t Scale, const uint8_t* Shape, const uint8_t Palette, const bool FlipVertical, const bool FlipHorizontal)
 {
   WriteRegister(0x37);
